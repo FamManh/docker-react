@@ -6,5 +6,12 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - REACT_APP_NAME=MANH-react-app
+      - CHOKIDAR_USEPOLLING=true
     # env_file:
     #   - ./.env

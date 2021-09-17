@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Does it change {`${process.env.REACT_APP_NAME}`}
+          Demo {`${process.env.REACT_APP_NAME} con co`}
         </p>
         <a
           className="App-link"
